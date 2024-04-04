@@ -32,7 +32,19 @@ body{
     width: 200px; 
     height: 100px; 
     margin-left: 5rem;    
-} 
+}
+.imgagmain{
+    position: relative;
+    width: 230px;
+    height: 230px;
+    background-image: url('character.jpg');
+    background-size: cover; 
+    background-position: center; 
+    margin-left: 0rem;
+    border-radius: 10px;
+    
+
+}
 .leftimagebox img{
     border-radius: 10px;
     width: 230px;

@@ -7,8 +7,12 @@ body.darkmode{
 .darkmode .leftbox{
     background-color: black;
 }
+
 .darkmode .leftbox1{
     background-color: rgb(44, 44, 44);
+}
+.darkmode .imgagmain{
+    background-image: url("characterdark.png");
 }
 .darkmode .sociali {
     background-color: rgb(44, 44, 44);
@@ -95,4 +99,9 @@ body.darkmode{
 }
 .darkmode .copyrightproject{
     background-color: rgb(44, 44, 44);
+}
+@media(max-width:768px){
+    .darkmode .navbox{
+        background-color: transparent;
+    }
 }
