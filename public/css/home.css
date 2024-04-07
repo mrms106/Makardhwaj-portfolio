@@ -37,7 +37,7 @@ body{
     position: relative;
     width: 230px;
     height: 230px;
-    background-image: url('character.jpg');
+    background-image: url("character.jpg");
     background-size: cover; 
     background-position: center; 
     margin-left: 0rem;
