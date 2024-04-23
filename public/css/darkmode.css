@@ -2,48 +2,78 @@ body.darkmode{
     background-image: url("darkbg.jpg");
     color: white; 
     font-family: "Rosarivo", cursive;
+    transition: 0.1s;
 }
 
 .darkmode .leftbox{
     background-color: black;
+    transition: 0.1s;
+
 }
 
 .darkmode .leftbox1{
     background-color: rgb(44, 44, 44);
+    transition: 0.1s;
+
 }
 .darkmode .imgagmain{
     background-image: url("characterdark.png");
+    transition: 0.1s;
+
+}
+.darkmode .f{
+    color: white;
+}
+.darkmode .t{
+    color: white;
 }
 .darkmode .sociali {
     background-color: rgb(44, 44, 44);
+    transition: 0.1s;
+
 }
 .darkmode .sociali:hover{
     background-color: blue;
+
 }
 .darkmode .conatct{
     background-color: rgb(44, 44, 44);
+    transition: 0.1s;
+
 }
 .darkmode .contacticon{
     background-color: rgb(81, 80, 80);
+    transition: 0.1s;
+
 }
 .darkmode .contacticon:hover{
     background-color: blue;
 }
 .darkmode .aboutboxchild{
     background-color: rgb(44, 44, 44);
+    transition: 0.1s;
+
 }
 .darkmode .aboutboxchild1{
     background-color: rgb(44, 44, 44);
+    transition: 0.1s;
+
 }
 .darkmode  .rightboxmain{
     background-color: black;
+    transition: 0.1s;
+
 }
 .darkmode .contactmain{
     background-color: black;
+    transition: 0.1s;
+
 }
 
 .darkmode .contctbox{
     background-color: rgb(44, 44, 44);
+    transition: 0.1s;
+
 
 }
 .darkmode .contactheading{
@@ -81,9 +111,14 @@ body.darkmode{
 }
 .darkmode .navbox{
     background-color: black;
+    transition: 0.1s;
+
 }
 .darkmode .navbox1{
+color: white;
  background-color: rgb(44, 44, 44);
+ transition: 0.1s;
+
 }
 .darkmode .navbox1:hover{
     background-color: blue;

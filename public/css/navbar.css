@@ -37,7 +37,7 @@ margin-bottom: -20px;
     font-size: 19px;
     margin-top: 1.4rem;
 }
-@media(max-width:768px){
+@media(max-width:1024px){
     .navbox{
         width: 24rem;
         height: 6.5rem;

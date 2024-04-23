@@ -2,6 +2,8 @@ body{
     background-image: url("bgimage.jpg");
     color: black;
     font-family: "Sansita", sans-serif;
+    transition: 0.1s;
+
 }
 
 .mainbox{
@@ -25,6 +27,8 @@ body{
     min-width: 24vw;
     min-height: 90vh;
     border-radius: 20px;
+    transition: 0.1s;
+
     
 }
 .leftimagebox{
@@ -42,6 +46,8 @@ body{
     background-position: center; 
     margin-left: 0rem;
     border-radius: 10px;
+    transition: 0.1s;
+
     
 
 }
@@ -60,6 +66,8 @@ body{
     background-color: rgb(240, 239, 239);
     border-radius: 10px;  
     font-size: 20px;
+    transition: 0.1s;
+
 }
 .social{
     display: flex;
@@ -73,6 +81,8 @@ body{
     height: 35px;
     border-radius: 7px;
     padding-top: 10px;
+    transition: 0.1s;
+
 }
 .sociali:hover{
     background-color: blue;
@@ -101,6 +111,8 @@ body{
     border-radius: 20px;
     /* margin-bottom: 2rem; */
     padding-top: 1rem;
+    transition: 0.1s;
+
    
 }
 .contact1{
@@ -112,6 +124,8 @@ body{
     border-bottom: 1px solid rgb(182, 182, 182);
     width: 15vw;
     margin-left: 20px;
+    transition: 0.1s;
+
     
 }
 
@@ -122,6 +136,8 @@ height: 20px;
 font-size: 20px;
 background-color: white;
 border-radius: 10px;
+transition: 0.1s;
+
 }
 .p{
    color: red; 
@@ -146,6 +162,8 @@ border-radius: 10px;
     justify-content: start;
     align-items: start;
     text-align: start;
+    transition: 0.1s;
+
 }
 .contact1child{
     margin-left: 13px;
@@ -167,6 +185,8 @@ border-radius: 10px;
     font-size: 18px;
     cursor: pointer;
     margin-bottom: 2rem;
+    transition: 0.1s;
+
 
 }
 .cvbox a{
@@ -180,6 +200,8 @@ border-radius: 10px;
     background-color: white;
     border-radius: 20px;
     margin-left: 2rem;
+    transition: 0.1s;
+
 
 }
 .rightbox{
@@ -213,6 +235,8 @@ border-radius: 10px;
     border-radius: 10px;
    display: flex;
    flex-direction: row;
+   transition: 0.1s;
+
 
 }
 .aboutboxchild1{
@@ -224,6 +248,8 @@ border-radius: 10px;
     border-radius: 10px;
     display: flex;
    flex-direction: row;
+   transition: 0.1s;
+
     
 }
 .child1{
@@ -240,7 +266,7 @@ border-radius: 10px;
    font-size: 27px;
 }
 
-@media(max-width:768px){
+@media(max-width:1024px){
     .mainbox{
         flex-direction: column;
         margin-left: 0;
@@ -259,5 +285,23 @@ border-radius: 10px;
     }
     .contact1{
         width: 15rem;
+    }
+}
+@media(min-width:1024px ) and (max-width:1600px){
+    .leftimagebox{
+        margin-left: 17%;
+    }
+
+.leftbox{
+       width: auto;
+       margin-left: 0;
+      
+    }
+    .conatct{
+        width: auto;
+        
+    }
+    .contact1{
+        width: auto;
     }
 }

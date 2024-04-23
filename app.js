@@ -13,7 +13,6 @@ app.use(express.static(path.join(__dirname,"/public")));
 app.use(express.urlencoded({extended:true}));
 app.use(methodOveride("_method"));
 
-
 app.get("/",controller.main);
-app.post("/home" ,controller.home)
+app.post("/home" ,controller.home);
 app.listen("8080",controller.port);

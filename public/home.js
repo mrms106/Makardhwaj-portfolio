@@ -35,3 +35,13 @@ body.classList.add('darkmode');
 }
 }
 window.addEventListener('load', initializeDarkMode);
+
+
+//preloader
+
+const fadeout=()=>{
+    const loader=document.querySelector(".preloader");
+    loader.classList.remove("preloader");
+}
+window.addEventListener("load",fadeout);
+
